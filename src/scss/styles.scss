@@ -1,8 +1,8 @@
 // Variables
 @import 'variables';
 
-// Import Bootstrap source files
-@import "~bootstrap/scss/bootstrap";
+// Bootstrap
+@import "bootstrap";
 
 // In this scss we write our custom scss
 @import 'app';
