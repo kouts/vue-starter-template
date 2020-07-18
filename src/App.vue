@@ -9,10 +9,12 @@
 <script>
 import '@/scss/styles.scss';
 
+const defaultLayout = 'default';
+
 export default {
   computed: {
     layout() {
-      return 'layout-' + this.$route.meta.layout || 'default';
+      return this.$route.meta.layout ? `layout-${this.$route.meta.layout}` : `layout-${defaultLayout}`;
     }
   }
 };
