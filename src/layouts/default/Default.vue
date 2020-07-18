@@ -36,7 +36,7 @@ export default {
     width: 100%;
     height: 60px; /* Footer height */
     line-height: 60px; /* Vertically center the text */
-    background-color: #f5f5f5;
+    background-color: $gray-100;
     text-align: center;
   }
 </style>
