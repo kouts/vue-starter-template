@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Brand</a>
+    <router-link to="/" class="navbar-brand" @click.native="collapseNavbar">Brand</router-link>
     <button
       :class="['navbar-toggler', !navbarExpanded && 'collapsed']"
       type="button"
