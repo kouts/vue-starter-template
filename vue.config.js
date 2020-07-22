@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  lintOnSave: 'warning',
   pluginOptions: {
     'style-resources-loader': {
       preProcessor: 'scss',
