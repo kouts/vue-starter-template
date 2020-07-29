@@ -12,9 +12,17 @@ module.exports = {
     loaderOptions: {
       scss: {
         prependData: `
-          @import "@/scss/styles.scss";
+          @import "@/scss/variables.scss";
         `
       }
     }
+  },
+  chainWebpack: config => {
+    config.plugin('html').tap(args => {
+      args[0].title = 'ProjectName';
+      args[0].meta = { viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no' };
+      args[0].meta = { description: 'A single page application created using Vue.js' };
+      return args;
+    });
   }
 };
