@@ -1,11 +1,11 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Default from '@/layouts/default/Default.vue';
-import Home from '../views/Home.vue';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Default from '@/layouts/default/Default.vue'
+import Home from '../views/Home.vue'
 
-Vue.component('layout-default', Default);
+Vue.component('LayoutDefault', Default)
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 const routes = [
   {
@@ -27,11 +27,11 @@ const routes = [
       layout: 'default'
     }
   }
-];
+]
 
 const router = new VueRouter({
   linkActiveClass: 'active',
   routes
-});
+})
 
-export default router;
+export default router

@@ -16,7 +16,9 @@
       <div id="navbarDefault" :class="['collapse navbar-collapse', navbarExpanded && 'show']">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <router-link to="/" exact exact-active-class="active" class="nav-link" @click.native="collapseNavbar">Home</router-link>
+            <router-link to="/" exact exact-active-class="active" class="nav-link" @click.native="collapseNavbar"
+              >Home</router-link
+            >
           </li>
           <li class="nav-item">
             <router-link to="/about" class="nav-link" @click.native="collapseNavbar">About</router-link>
@@ -32,15 +34,15 @@ export default {
   data() {
     return {
       navbarExpanded: false
-    };
+    }
   },
   methods: {
     toggleNavbar() {
-      this.navbarExpanded = !this.navbarExpanded;
+      this.navbarExpanded = !this.navbarExpanded
     },
     collapseNavbar() {
-      this.navbarExpanded = false;
+      this.navbarExpanded = false
     }
   }
-};
+}
 </script>
