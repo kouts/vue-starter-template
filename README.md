@@ -8,7 +8,7 @@ A single page app starter template created to easily bootstrap Vue.js 2 apps.
 - SCSS variables inside Vue components
 - Purgecss for eliminating unused CSS
 - Basic multiple layouts feature
-- [ESLint](https://github.com/kouts/eslint-config-kouts) config based on 
+- [ESLint config](https://github.com/kouts/eslint-config-kouts) based on 
 [eslint-config-standard](https://github.com/standard/eslint-config-standard) 
 and `eslint:recommended` with sensible defaults :relaxed:
 - [Prettier](https://prettier.io/) for code formatting
