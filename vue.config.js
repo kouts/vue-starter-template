@@ -16,6 +16,7 @@ module.exports = {
     config.plugin('html').tap((args) => {
       args[0].title = 'ProjectName'
       args[0].meta = { description: 'A single page application created using Vue.js' }
+
       return args
     })
   }
