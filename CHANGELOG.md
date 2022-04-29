@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/kouts/vue-starter-template/compare/v1.1.0...v1.2.0) (2022-04-29)
+
+
+### Bug Fixes
+
+* bumped node version in github action ([ce0b905](https://github.com/kouts/vue-starter-template/commit/ce0b905695572a2c79a1370d0c519ef311749158))
+
+
+### Features
+
+* updated eslint config and npm packages ([5382c2a](https://github.com/kouts/vue-starter-template/commit/5382c2a95248f0d4c6eabc9d9eefc72e9ca6c806))
+
 # [1.1.0](https://github.com/kouts/vue-starter-template/compare/v1.0.0...v1.1.0) (2021-08-11)
 
 
