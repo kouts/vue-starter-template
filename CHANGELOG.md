@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/kouts/vue-starter-template/compare/v1.2.0...v1.2.1) (2022-04-29)
+
+
+### Bug Fixes
+
+* updated eslint config ([bf2fc17](https://github.com/kouts/vue-starter-template/commit/bf2fc17a5b5bed6b3d910065a53d9ed6d03427e6))
+
 # [1.2.0](https://github.com/kouts/vue-starter-template/compare/v1.1.0...v1.2.0) (2022-04-29)
 
 
