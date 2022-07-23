@@ -1,3 +1,12 @@
+## [1.2.3](https://github.com/kouts/vue-starter-template/compare/v1.2.2...v1.2.3) (2022-07-23)
+
+
+### Bug Fixes
+
+* fixed body-max-line-length ([74928ae](https://github.com/kouts/vue-starter-template/commit/74928ae644a765ebc7aad394927662160976884c))
+* updated npm packages ([fde59f2](https://github.com/kouts/vue-starter-template/commit/fde59f2358641ff925ee18c693a31bdd69b7231d))
+* updated npm packages ([3435e98](https://github.com/kouts/vue-starter-template/commit/3435e98506ed22c676cd2e9381ad6cbf17733ca8))
+
 ## [1.2.2](https://github.com/kouts/vue-starter-template/compare/v1.2.1...v1.2.2) (2022-05-08)
 
 
