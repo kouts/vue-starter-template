@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/kouts/vue-starter-template/compare/v1.2.5...v1.2.6) (2022-12-11)
+
+
+### Bug Fixes
+
+* updated npm packages ([bcf1acc](https://github.com/kouts/vue-starter-template/commit/bcf1acc6e2600489454853b53fdd5f7a8ff2935d))
+
 ## [1.2.5](https://github.com/kouts/vue-starter-template/compare/v1.2.4...v1.2.5) (2022-10-16)
 
 
