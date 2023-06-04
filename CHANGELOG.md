@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/kouts/vue-starter-template/compare/v1.2.7...v1.2.8) (2023-06-04)
+
+
+### Bug Fixes
+
+* updated npm packages ([9807710](https://github.com/kouts/vue-starter-template/commit/9807710ac16c9a75904c1969b6f17014df7df40b))
+
 ## [1.2.7](https://github.com/kouts/vue-starter-template/compare/v1.2.6...v1.2.7) (2023-04-07)
 
 
