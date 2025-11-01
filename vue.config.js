@@ -1,16 +1,19 @@
 // eslint-disable-next-line no-unused-vars
-const path = require('path')
+import path from 'path'
 
-module.exports = {
+export default {
   lintOnSave: 'warning',
   css: {
     loaderOptions: {
       scss: {
         additionalData: `
           @import "@/scss/variables.scss";
-        `
-      }
-    }
+        `,
+        sassOptions: {
+          silenceDeprecations: ['import', 'global-builtin', 'color-functions'],
+        },
+      },
+    },
   },
   chainWebpack: (config) => {
     config.plugin('html').tap((args) => {
@@ -19,5 +22,5 @@ module.exports = {
 
       return args
     })
-  }
+  },
 }
