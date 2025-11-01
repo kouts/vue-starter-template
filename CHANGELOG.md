@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/kouts/vue-starter-template/compare/v1.2.8...v1.2.9) (2025-11-01)
+
+
+### Bug Fixes
+
+* updated vue config and release workflow ([4d6d7ae](https://github.com/kouts/vue-starter-template/commit/4d6d7ae43d4737f18efdae276e3a445a1ada22d3))
+
 ## [1.2.8](https://github.com/kouts/vue-starter-template/compare/v1.2.7...v1.2.8) (2023-06-04)
 
 
