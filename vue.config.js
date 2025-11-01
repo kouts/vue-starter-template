@@ -10,7 +10,7 @@ export default {
           @import "@/scss/variables.scss";
         `,
         sassOptions: {
-          silenceDeprecations: ['import', 'global-builtin', 'color-functions'],
+          silenceDeprecations: ['import', 'global-builtin', 'color-functions', 'abs-percent'],
         },
       },
     },

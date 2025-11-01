@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col text-center">
       <h1 class="msg">{{ msg }}</h1>
-      <p>
+      <p class="mt-4">
         A project setup using vue-cli, created to easily scaffold new Vue.js projects.<br />
         Find out more at
         <a class="custom" href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
