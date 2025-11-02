@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/kouts/vue-starter-template/compare/v1.2.9...v1.2.10) (2025-11-02)
+
+
+### Bug Fixes
+
+* removed unused import ([0e73b89](https://github.com/kouts/vue-starter-template/commit/0e73b8954cec35b47549d2db02a3b99075804e90))
+
 ## [1.2.9](https://github.com/kouts/vue-starter-template/compare/v1.2.8...v1.2.9) (2025-11-01)
 
 
